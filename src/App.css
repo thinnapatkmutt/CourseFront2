@@ -1,0 +1,57 @@
+.cardx {
+  margin: auto;
+  width: 150px;
+  text-align:center;
+  border: 2px solid rgb(136, 90, 130);
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardx img{
+  width: 150px;
+  height: 208px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.myNavLink {
+  text-decoration: none;
+  color:rgb(222, 220, 220)
+}
+
+.myNavLink:hover{
+  color:white
+}
+
+.myLink {
+  text-decoration: none;
+  font-weight: 700;
+  color:rgb(97, 64, 64)
+}
+body {
+  background-image: url("./image/whitewall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-card-header {
+  background-color: #272727; /* Replace with your desired background color */
+  color: #ffffff; /* Replace with your desired text color */
+}
+
+.custom-navbar {
+  transition: top 0.3s;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.custom-price {
+  background-color: #272727; /* Replace with your desired background color */
+  color: #ff0000; /* Replace with your desired text color */
+}
